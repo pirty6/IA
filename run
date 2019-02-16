@@ -6,6 +6,6 @@ int main() {
     int b = 0;
     scanf("%i%*c", &a);
     scanf("%i%*c", &b);
-
-    return a+b;
+    printf("%i", a+b);
+    return 0;
 }
