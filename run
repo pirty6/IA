@@ -1,2 +1,2 @@
 #!/bin/sh
-node my_program.js
+java -jar myjar.jar
