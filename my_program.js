@@ -5,6 +5,10 @@ var rl = readline.createInterface({
   terminal: false
 });
 
+var arr[], i = 0;
 rl.on('line', function(line){
-    console.log(line);
+    arr[i] = line;
+    i++;
 })
+
+console.log(arr[0] + arr[1]);
