@@ -12,6 +12,8 @@ class Main {
     stdin.close();
 
     // do something with the lines array
-    System.out.println("Hello world!");
+    int a = Integer.parseInt(lines.get(0));
+    int b = Integer.parseInt(lines.get(1));
+    System.out.println(a+b);
   }
 }
